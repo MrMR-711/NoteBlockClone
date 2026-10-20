@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/icons/noteblock-clone-icon.png" width="45%" alt="Note Block Clone">
+  <img src="docs/icons/noteblock-clone-icon.webp" width="45%" alt="Note Block Clone">
 </p>
 
 ---
@@ -159,7 +159,7 @@ NoteBlockClone/
 </p>
 
 <p align="center">
-  <img src="docs/icons/noteblock-clone-icon.png" width="45%" alt="Note Block Clone">
+  <img src="docs/icons/noteblock-clone-icon.webp" width="45%" alt="Note Block Clone">
 </p>
 
 ---
