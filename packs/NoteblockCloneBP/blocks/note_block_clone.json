@@ -1,0 +1,47 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "clone:noteblock_clone",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "clone:octave": [0, 1],
+                "clone:semitone": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "notey_note_block",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.8
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.8
+            },
+            "minecraft:flammable": {
+                "catch_chance_from_flames": 5,
+                "destroy_chance_from_flames": 20
+            },
+            "minecraft:map_color": "#8F7748",
+            "minecraft:friction": 0.6,
+            "minecraft:redstone_conductivity": {
+                "redstone_conductor": true
+            },
+            "minecraft:redstone_consumer": {
+                "min_power": 0,
+                "propagates_power": true
+            },
+            "minecraft:movable": {
+                "movement_type": "immovable"
+            },
+            "clone:noteblock_redstone": {}
+        }
+    }
+}

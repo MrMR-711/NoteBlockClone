@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Note Block Clone (Resources)",
+        "description": "Textures and names for the Note Block Clone add-on.",
+        "uuid": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 26, 0]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f",
+            "version": [1, 0, 0]
+        }
+    ],
+    "capabilities": ["pbr"],
+    "dependencies": [
+        {
+            "uuid": "7c6f2a14-3b8e-4a5d-9f0c-1d2e3a4b5c6d",
+            "version": [1, 0, 0]
+        }
+    ],
+    "metadata": {
+        "authors": ["MrMR711"],
+        "license": "MIT"
+    }
+}

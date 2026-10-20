@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "clone:noteblock_clone"
+        },
+        "tags": ["crafting_table"],
+        "unlock": [
+            { "item": "minecraft:noteblock" },
+            { "item": "minecraft:redstone" }
+        ],
+        "ingredients": [
+            { "item": "minecraft:noteblock" },
+            { "item": "minecraft:redstone" }
+        ],
+        "result": {
+            "item": "clone:noteblock_clone",
+            "count": 1
+        }
+    }
+}

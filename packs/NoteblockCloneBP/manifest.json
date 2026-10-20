@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Note Block Clone (Behavior)",
+        "description": "A faithful clone of the vanilla Note Block: redstone-triggered, instrument-by-block-below, click-to-tune. Requires Minecraft 26.0+.",
+        "uuid": "7c6f2a14-3b8e-4a5d-9f0c-1d2e3a4b5c6d",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 26, 0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        },
+        {
+            "uuid": "8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a",
+            "version": [1, 1, 0]
+        }
+    ],
+    "metadata": {
+        "authors": ["MrMR711"],
+        "license": "MIT"
+    }
+}
